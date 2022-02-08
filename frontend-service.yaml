@@ -3,6 +3,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: frontend
+  namespace: guestbookns
   labels:
     app: guestbook
     tier: frontend
